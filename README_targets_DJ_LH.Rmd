@@ -260,7 +260,7 @@ In air pollution studies, RR is expressed as the ratio by which the risk of mort
 
 RR is a function of the difference in pollution levels $(x_1 – x_0)$. For any change in pollution level from $(x_1 – x_0)$, the relative risk is given by the formula:   
 
-$RR(x_1 – x_0) = exp(β(x_1 – x_0)$  
+$$RR(x_1 – x_0) = exp(β(x_1 – x_0)$$  
 
 The pollution level $x_1$ may be a target or cutoff level for which a policy or legislation aims, and it is likely to be lower than $x_0$.
 
@@ -277,7 +277,7 @@ Hazard ratios (HR) measure the strength of association between an exposure and a
 Within the context of air pollution epidemiological studies, a hazard ratio (HR) is the ratio of hazard rates corresponding to the conditions characterised by two distinct air pollution levels.
 The hazard rate (H) at pollution level $x_1$ is derived from those at level $x_0$ by:
 
-$H(x_1) = RR(x_1 – x_0) \times h(x_0)$  
+$$H(x_1) = RR(x_1 – x_0) \times h(x_0)$$  
   
 
 **The PAF (population attributable fraction)**  
@@ -288,7 +288,7 @@ PAF is calculated by comparing the incidence of the disease or outcome in the to
 
 Mathematically, PAF can be expressed as:
 
-$PAF = (P_e \times (RR - 1)) / (1 + (P_e \times (RR - 1)))$
+$$PAF = (P_e \times (RR - 1)) / (1 + (P_e \times (RR - 1)))$$
 
 Where:  
   
@@ -332,7 +332,7 @@ Australia has a limited number of epidemiological studies of long-term exposure 
 
 This RR was used to calculate the attributable numbers (AN) of deaths associated with PM2.5 exposure in each SA2. AN was calculated based on estimates of baseline PM2.5 compared to the counterfactual and then aggregated to the state using the following equation:  
 
-$AN = \sum(1 - e^{(1 - \beta\triangle_i_j}) \times Expected_i_j$
+$$AN = \sum(1 - e^{(1 - \beta\triangle_{i,j})}) \times Expected_{i,j}$$
 
 Where $Expected_i_j$ is the death count estimated by applying the mortality rate in age-group $i$ by age-specific population counts within SA2 $j$, $β=log(RR)/10$ and $\triangle X_i_j$ is the change in annual PM2.5 concentration from baseline concentrations to counterfactuals concentrations in SA2 $j$. Baseline concentrations were estimated as the population-weighted PM2.5 levels for each SA2 by year.   
 
